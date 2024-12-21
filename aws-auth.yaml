@@ -11,6 +11,10 @@ data:
       - expense-trainee
       userarn: arn:aws:iam::390403901513:user/suresh
       username: suresh
+      - groups:
+      - expense-admin
+      userarn: arn:aws:iam::390403901513:user/ramesh
+      username: ramesh
   # - groups:
     #   - eks-console-dashboard-restricted-access-group
     #   userarn: arn:aws:iam::444455556666:user/my-user
